@@ -1,6 +1,6 @@
 ---
 title: Analyzing Patient Data
-teaching: 40
+teaching: 45
 exercises: 20
 questions:
 - "How can I process tabular data files in Python?"
