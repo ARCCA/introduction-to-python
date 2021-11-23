@@ -69,7 +69,9 @@ instructions for both methods of access: through OnDemand and through a `ssh`
   (we will discuss more about installing Python packages later on):
 
   ```
-  $ pip3 install --user jupyterlab
+  $ python3 -m venv create my_venv
+  $ . my_venv/bin/activate
+  $ python3 -m pip install jupyterlab
   ```
 
   The installation process will try to download several dependencies from the 
@@ -255,7 +257,7 @@ dependencies:
   - pandas
   - ipykernel
 ~~~
-{: .language-ruby}
+{: .language-yaml}
 
 The package `ipykernel` is required here to make the environment reachable from
 Jupyter Notebooks. You can find more about creating an `environment.yml` file 
@@ -265,7 +267,7 @@ On Hawk you need to first load Anaconda:
 
 ```
 $ module load anaconda/2020.02
-$ eval "$(/apps/languages/anaconda/2020.02/bin/conda shell.bash hook)"
+$ source activate
 $ which conda
 ```
 
@@ -468,9 +470,11 @@ module purge
 module load anaconda/2020.02
 module list
 
-eval "$(/apps/languages/anaconda/2020.02/bin/conda shell.bash hook)"
+# Load conda
+source activate
 
-source activate my-conda-env
+# Load our environment
+conda activate my-conda-env
 
 which python
 python --version
@@ -494,7 +498,7 @@ Submitted batch job 25859860
 You can query the current state of this job with:
 
 ```
-squeue -u $USER
+$ squeue -u $USER
 ```
 
 ~~~
@@ -520,7 +524,7 @@ training courses on these topics:
 > ## Need help?
 > 
 > If during the above steps you found any issues or have doubts regarding your
-> specific work environment, get in touch with us at arcca@cardiff.ac.uk.
+> specific work environment, get in touch with us at arcca-help@cardiff.ac.uk.
 {: .callout}
 
 
