@@ -13,9 +13,10 @@ and instructions on how to obtain them are provided below.
 
 ## Install Python
 
-In this lesson, we will be using Python 3 with some of its most popular scientific libraries.
-Although one can install a plain-vanilla Python and all required libraries by hand,
-we recommend installing [Anaconda][anaconda-website],
+In this lesson, we will be using Python 3 with some of its most popular
+scientific libraries.
+Although one can install a plain-vanilla Python and all required libraries by
+hand, we recommend installing [Anaconda][anaconda-website],
 a Python distribution that comes with everything we need for the lesson.
 Detailed installation instructions for various operating systems can be found
 on The Carpentries [template website for workshops][anaconda-instructions]
@@ -29,16 +30,44 @@ and in [Anaconda documentation][anaconda-install].
 3. Move downloaded files to `swc-python`.
 4. Unzip the files.
 
-You should see two folders called `data` and `code` in the `swc-python` directory on your
-Desktop.
+You should see two folders called `data` and `code` in the `swc-python`
+directory on your Desktop.
 
 ## Launch Python interface
 
-To start working with Python, we need to launch a program that will interpret and execute our Python
-commands. Below we list several options. If you don't have a preference, proceed with the top
-option in the list that is available on your machine. Otherwise, you may use any interface you like.
+To start working with Python, we need to launch a program that will interpret
+and execute our Python commands. Below we list several options. If you don't
+have a preference, proceed with the top option in the list that is available
+on your machine. Otherwise, you may use any interface you like.
 
-## Option A: Jupyter Notebook
+## Option A (beta-testing): ARCCA's JupyterHub
+
+We are currently trialing providing the course via JupyterHub.
+
+You will need to connect to the Cardiff University VPN service in order to
+access the JupyterHub website. Please follow [this link][cardiff-vpn] for more
+information.
+
+You can access ARCCA's JupyterHub service at: https://host095.sparrow.cf.ac.uk
+
+You may be presented with a warning when accessing the service as we are
+currently using self-signed security certificates. Please do not be alarmed
+and click to accept the risk in your browser.
+
+Once you've logged in, please click on the "Terminal" button on the page to
+access a terminal environment you can use to run the commands featured in this
+course. The course material and the data-shell.zip file have already been added
+to the envrionment as well and are available in the desktop folder.
+
+**Accounts**
+
+Please use the following accounts to access the service. We’ll provide the
+password during the sessions.
+
+ - training1 through to training20
+
+
+## Option A : Jupyter Notebook
 
 A Jupyter Notebook provides a browser-based interface for working with Python.
 If you installed Anaconda, you can launch a notebook in two ways:
@@ -142,3 +171,4 @@ winpty python
 [gitbash]: https://gitforwindows.org
 [zipfile1]: {{ page.root }}/data/python-novice-inflammation-data.zip
 [zipfile2]: {{ page.root }}/code/python-novice-inflammation-code.zip
+[cardiff-vpn]: https://intranet.cardiff.ac.uk/staff/supporting-your-work/it-support/wireless-and-remote-access/off-campus-access/virtual-private-network-vpn
