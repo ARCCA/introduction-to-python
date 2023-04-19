@@ -54,17 +54,17 @@ You may be presented with a warning when accessing the service as we are
 currently using self-signed security certificates. Please do not be alarmed
 and click to accept the risk in your browser.
 
-Once you've logged in, please click on the "Terminal" button on the page to
-access a terminal environment you can use to run the commands featured in this
-course. The course material and the data-shell.zip file have already been added
-to the envrionment as well and are available in the desktop folder.
-
 **Accounts**
+The usernames and passwords for this service are not related to your usual
+Cardiff credentials (as we are only testing the service for now).
 
-Please use the following accounts to access the service. We’ll provide the
-password during the sessions.
+Please use the following accounts to access the service. **We’ll provide the
+password during the sessions.**
 
- - training1 through to training20
+ - training1
+ - training2
+ - ...
+ - training20
 
 
 ## Option A : Jupyter Notebook
