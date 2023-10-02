@@ -40,6 +40,7 @@ and execute our Python commands. Below we list several options. If you don't
 have a preference, proceed with the top option in the list that is available
 on your machine. Otherwise, you may use any interface you like.
 
+<!--
 ## Option A (beta-testing): ARCCA's JupyterHub
 
 We are currently trialing providing the course via JupyterHub.
@@ -65,7 +66,7 @@ password during the sessions.**
  - training2
  - ...
  - training20
-
+-->
 
 ## Option A : Jupyter Notebook
 
