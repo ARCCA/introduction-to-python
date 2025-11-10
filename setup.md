@@ -118,7 +118,7 @@ If you installed Anaconda, you can launch a notebook in two ways:
 >
 > > ## Unix shell
 > > ~~~
-> > jupyter notebook
+> > jupyter-lab 
 > > ~~~
 > > {: .language-bash}
 > {: .solution}
