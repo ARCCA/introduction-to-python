@@ -1,40 +1,90 @@
-# FIXME Lesson title
+# Tetris Game (俄罗斯方块)
 
-[![Create a Slack Account with us](https://img.shields.io/badge/Create_Slack_Account-The_Carpentries-071159.svg)](https://swc-slack-invite.herokuapp.com/)
+A simple, classic Tetris game implementation in Python using pygame.
 
-This repository generates the corresponding lesson website from [The Carpentries](https://carpentries.org/) repertoire of lessons. 
+## Description
+
+This is a fully functional Tetris game featuring:
+- Classic Tetris gameplay with all 7 tetromino shapes
+- Score tracking
+- Smooth piece movement and rotation
+- Line clearing mechanics
+- Game over detection
+
+## Requirements
+
+- Python 3.6 or higher
+- pygame 2.0.0 or higher
+
+## Installation
+
+1. Clone this repository:
+```bash
+git clone <repository-url>
+cd introduction-to-python
+```
+
+2. Install dependencies:
+```bash
+pip install -r requirements.txt
+```
+
+Or install pygame directly:
+```bash
+pip install pygame
+```
+
+## How to Play
+
+Run the game with:
+```bash
+python tetris.py
+```
+
+### Controls
+
+- **LEFT/RIGHT Arrow Keys**: Move piece horizontally
+- **DOWN Arrow Key**: Soft drop (move piece down faster)
+- **UP Arrow Key**: Rotate piece clockwise
+- **SPACE**: Hard drop (instantly drop piece to the bottom)
+
+### Objective
+
+- Arrange falling tetromino pieces to create complete horizontal lines
+- Completed lines are cleared and you earn points
+- The game ends when pieces stack up to the top of the screen
+- Try to achieve the highest score possible!
+
+## Scoring
+
+- Each cleared line awards 100 points
+- Clear multiple lines at once for maximum efficiency
+
+## Game Features
+
+- 7 unique tetromino shapes with different colors:
+  - I-piece (Cyan): 4 blocks in a line
+  - O-piece (Yellow): 2x2 square
+  - T-piece (Magenta): T-shaped
+  - L-piece (Orange): L-shaped
+  - J-piece (Blue): Reverse L-shaped
+  - S-piece (Green): S-shaped
+  - Z-piece (Red): Z-shaped
+
+- Automatic piece falling
+- Collision detection
+- Piece rotation
+- Score display
+- Game over screen
+
+## License
+
+This project maintains the original LICENSE.md from the repository.
 
 ## Contributing
 
-We welcome all contributions to improve the lesson! Maintainers will do their best to help you if you have any
-questions, concerns, or experience any difficulties along the way.
-
-We'd like to ask you to familiarize yourself with our [Contribution Guide](CONTRIBUTING.md) and have a look at
-the [more detailed guidelines][lesson-example] on proper formatting, ways to render the lesson locally, and even
-how to write new episodes.
-
-Please see the current list of [issues][FIXME] for ideas for contributing to this
-repository. For making your contribution, we use the GitHub flow, which is
-nicely explained in the chapter [Contributing to a Project](http://git-scm.com/book/en/v2/GitHub-Contributing-to-a-Project) in Pro Git
-by Scott Chacon.
-Look for the tag ![good_first_issue](https://img.shields.io/badge/-good%20first%20issue-gold.svg). This indicates that the maintainers will welcome a pull request fixing this issue.  
-
-
-## Maintainer(s)
-
-Current maintainers of this lesson are 
-
-* FIXME
-* FIXME
-* FIXME
-
+Contributions are welcome! Feel free to submit issues or pull requests.
 
 ## Authors
 
-A list of contributors to the lesson can be found in [AUTHORS](AUTHORS)
-
-## Citation
-
-To cite this lesson, please consult with [CITATION](CITATION)
-
-[lesson-example]: https://carpentries.github.io/lesson-example
+See [AUTHORS](AUTHORS) file for contributors.
